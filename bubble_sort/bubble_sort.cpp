@@ -2,6 +2,8 @@
 //
 
 #include <iostream>
+int a[20];
+int n;
 
 int main()
 {
