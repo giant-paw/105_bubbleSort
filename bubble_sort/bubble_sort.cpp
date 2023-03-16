@@ -2,13 +2,31 @@
 //
 
 #include <iostream>
+using namespace std;
 int a[20];
 int n;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+
+void input() {
+    while (true) {
+        cout << "Masukkan banyaknya elemen pada array: ";
+        cin >> n;
+        if (n <= 20)
+            break;
+        else {
+            cout << "\nArray dapat mempunyai maksimal 20 element.\n";
+        }
+    }
+    cout << endl;
+    cout << "============================" << endl;
+    cout << "Masukkan Element Array" << endl;
+    cout << "============================" << endl;
 }
+
+int main(){
+
+}
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
